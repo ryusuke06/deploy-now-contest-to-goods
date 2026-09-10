@@ -1,0 +1,42 @@
+{
+  "name": "deploy-now-contest-to-goods",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "format": "prettier --write src tests README.md next.config.ts",
+    "browser:install": "playwright install chromium --only-shell",
+    "test:browser": "node --import tsx --test tests/screenshot.integration.ts",
+    "test:studio": "node --import tsx --test tests/studio.integration.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@sparticuz/chromium": "152.0.0",
+    "ipaddr.js": "^2.5.0",
+    "next": "16.3.4",
+    "playwright": "1.62.0",
+    "qrcode": "^1.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "sharp": "^0.35.4",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.185.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "jsqr": "^1.4.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.13",
+    "typescript": "^5"
+  }
+}
