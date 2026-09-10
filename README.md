@@ -108,4 +108,4 @@ npm run build
 - [Lambda向けChromium](https://github.com/Sparticuz/chromium)
 - [SUZURI API](https://suzuri.jp/developer/documentation/v1?locale=ja)
 
-日本語フォントはNoto Sans JP（SIL Open Font License）です。ライセンスは `assets/fonts/OFL.txt` に同梱しています。
+日本語フォントはNoto Sans JP（SIL Open Font License）です。ライセンスは `assets/fonts/OFL.txt` に同梱しています
